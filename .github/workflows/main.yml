@@ -2,7 +2,7 @@ name: Release Senior Thesis Proposal
 on:
   push:
     tags:
-      - '1.*.*'    
+      - '*.*.*'    
 jobs:
   build_latex:
     runs-on: ubuntu-latest
